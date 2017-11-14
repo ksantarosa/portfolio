@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Sumana');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.App {
+  margin-top: 50px;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar span {
+  line-height: 50px;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  padding: 0px 15px;
+}
+
+.navbar span:hover {
+  background-color: white;
+  color: #557EB9;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+.about {
+  padding: 25px 20px;
+  color: black;
+}
+
+.experience {
+  padding: 25px 20px;
+}
+
+.experience .work {
+  width: 50%;
+  display: inline-block;
+}
+
+.projects {
+  padding: 25px 20px;  
+}
+
+.project-section {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  border: 1px #3d5b86 solid;
+  color: #3d5b86;
+  box-sizing: border-box;
+}
+
+.project-section h3 {
+  text-align: center;
+}
+
+.project-section div {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-section p {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  color: black;
+  border-top: 1px solid #666767;
+  display: inline-block;
+  position: absolute;
+}
+
+.img-view-icon {
+  width: 50%;
+  border: 1px solid #666767;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 6px 6px 10px #bdbdbd;
+  box-shadow: 6px 6px 10px #bdbdbd;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Modal  */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modal-close-blue {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(6, 64, 106);
+  font-size: 22px;
+  margin: 10px;
+}
+
+.modal-close-white {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.modal-close-blue:hover,
+.modal-close-white:hover {
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: 30px;
+  color: #3b3b3d;
+  margin: 100px 10px;
+}
+
+.modal-content {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid rgb(6, 64, 106);
+  background-color: white;
+  color: black;
+}
+
+.modal-info {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: 10px 0;
+}
+
+.hide {
+  display: none;
+}
+
+/* Top Bar Modal */
+.modal-top-bar {
+  top: 0;
+  left: 0;
+  background-color: rgb(6, 64, 106);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid rgb(6, 64, 106);
+}
+
+.modal-top-bar > span {
+  margin: 5px;
+}
+
+
+.blue {
+  background-color: #557EB9;
+}
+
+.blue-secondary {
+  background-color: #3D5B86;
+}
+
+.blue-dark {
+  background-color: #1A2739;
+}
+
+.blue-gray {
+  background-color: #2C3139;
+}
+
+.blue-light {
+ background-color: #95A9C5;
+}
+
+@media only screen and (max-width : 480px) {
+  .img-view-icon,
+  .project-section p {
+    width: 100%;
+    position: relative;
+  }
+
+  .img-view-icon {
+    border: 1px solid #666767;
+    margin-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .project-section p {
+    border-top: none;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  
+}
