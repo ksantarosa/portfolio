@@ -1,0 +1,19 @@
+{
+  "main.css": "static/css/main.c18bb4b9.css",
+  "main.css.map": "static/css/main.c18bb4b9.css.map",
+  "main.js": "static/js/main.18247fdd.js",
+  "main.js.map": "static/js/main.18247fdd.js.map",
+  "static\\media\\add-user-to-board.png": "static/media/add-user-to-board.7223de99.png",
+  "static\\media\\board.png": "static/media/board.16c869bb.png",
+  "static\\media\\boards-dropdown.png": "static/media/boards-dropdown.06bf3167.png",
+  "static\\media\\boards-shared-with-me.png": "static/media/boards-shared-with-me.106f5c2c.png",
+  "static\\media\\boards.png": "static/media/boards.ebec0431.png",
+  "static\\media\\forgot-password.png": "static/media/forgot-password.24217443.png",
+  "static\\media\\login.png": "static/media/login.4b09b137.png",
+  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static\\media\\menu.png": "static/media/menu.69feee0d.png",
+  "static\\media\\modal-comments.png": "static/media/modal-comments.018b3eb6.png",
+  "static\\media\\modal-labels.png": "static/media/modal-labels.f8b74f1d.png",
+  "static\\media\\modal-title.png": "static/media/modal-title.dec7230f.png",
+  "static\\media\\reset-password.png": "static/media/reset-password.fba634cd.png"
+}
